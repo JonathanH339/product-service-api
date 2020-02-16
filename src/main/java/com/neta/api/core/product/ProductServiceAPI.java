@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 public interface ProductServiceAPI {
 
 	@PostMapping(value = "/product", consumes = "application/json", produces = "application/json")
-	public Product createProduct(@RequestBody Product product);
+	Product createProduct(@RequestBody Product product);
 
 	@GetMapping(value = "/product/{productId}", produces = "application/json")
-	public Product getProduct(@PathVariable int productId);
+	Product getProduct(@PathVariable int productId);
 
 	@DeleteMapping(value = "/product/{productId}")
-	public void deleteProduct(@PathVariable int productId);
+	void deleteProduct(@PathVariable int productId);
 
 }
 
