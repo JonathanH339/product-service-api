@@ -1,5 +1,3 @@
-
-
 package com.neta.api.core.review;
 
 import java.util.List;

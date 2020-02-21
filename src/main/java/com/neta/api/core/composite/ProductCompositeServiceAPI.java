@@ -1,5 +1,3 @@
-
-
 package com.neta.api.core.composite;
 
 import org.springframework.web.bind.annotation.DeleteMapping;

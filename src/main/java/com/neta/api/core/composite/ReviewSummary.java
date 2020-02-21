@@ -1,5 +1,4 @@
 
-
 package com.neta.api.core.composite;
 
 public class ReviewSummary {
@@ -11,6 +10,7 @@ public class ReviewSummary {
 	private final String content;
 
 	public ReviewSummary() {
+
 		this.reviewId = 0;
 		this.rating = 0;
 		this.author = null;
@@ -19,7 +19,7 @@ public class ReviewSummary {
 	}
 
 	public ReviewSummary(int reviewId, int rating, String author, String title, String content) {
-		super();
+
 		this.reviewId = reviewId;
 		this.rating = rating;
 		this.author = author;
@@ -28,22 +28,27 @@ public class ReviewSummary {
 	}
 
 	public int getReviewId() {
+
 		return reviewId;
 	}
 
 	public int getRating() {
+
 		return rating;
 	}
 
 	public String getAuthor() {
+
 		return author;
 	}
 
 	public String getTitle() {
+
 		return title;
 	}
 
 	public String getContent() {
+
 		return content;
 	}
 

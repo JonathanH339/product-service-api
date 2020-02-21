@@ -18,4 +18,3 @@ public interface ProductServiceAPI {
 	void deleteProduct(@PathVariable int productId);
 
 }
-

@@ -1,5 +1,3 @@
-
-
 package com.neta.api.core.product;
 
 public class Product {
@@ -11,6 +9,7 @@ public class Product {
 	private String serviceAddress;
 
 	public Product() {
+
 		this.productId = 0;
 		this.name = null;
 		this.description = null;
@@ -19,6 +18,7 @@ public class Product {
 	}
 
 	public Product(int productId, String name, String description, double price, String serviceAddress) {
+
 		this.productId = productId;
 		this.name = name;
 		this.description = description;
@@ -27,42 +27,52 @@ public class Product {
 	}
 
 	public int getProductId() {
+
 		return productId;
 	}
 
 	public void setProductId(int productId) {
+
 		this.productId = productId;
 	}
 
 	public String getName() {
+
 		return name;
 	}
 
 	public void setName(String name) {
+
 		this.name = name;
 	}
 
 	public String getDescription() {
+
 		return description;
 	}
 
 	public void setDescription(String description) {
+
 		this.description = description;
 	}
 
 	public double getPrice() {
+
 		return price;
 	}
 
 	public void setPrice(double price) {
+
 		this.price = price;
 	}
 
 	public String getServiceAddress() {
+
 		return serviceAddress;
 	}
 
 	public void setServiceAddress(String serviceAddress) {
+
 		this.serviceAddress = serviceAddress;
 	}
 
