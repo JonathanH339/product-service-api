@@ -21,7 +21,7 @@ public class ProductAggregate {
 		this.serviceAddresses = null;
 	}
 
-	public ProductAggregate(int productId, String name, String description, int price, List<ReviewSummary> reviews,
+	public ProductAggregate(int productId, String name, String description, double price, List<ReviewSummary> reviews,
 			ServiceAddresses serviceAddresses) {
 
 		this.productId = productId;
