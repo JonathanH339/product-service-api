@@ -7,8 +7,8 @@ public class ProductAggregate {
 	private final int productId;
 	private final String name;
 	private final String description;
-	private final List<ReviewSummary> reviews;
 	private final double price;
+	private final List<ReviewSummary> reviews;
 	private final ServiceAddresses serviceAddresses;
 
 	public ProductAggregate() {
@@ -16,18 +16,18 @@ public class ProductAggregate {
 		this.productId = 0;
 		this.name = null;
 		this.description = null;
-		this.reviews = null;
 		this.price = 0;
+		this.reviews = null;
 		this.serviceAddresses = null;
 	}
 
-	public ProductAggregate(int productId, double price, String name, String description, List<ReviewSummary> reviews,
+	public ProductAggregate(int productId, String name, String description, int price, List<ReviewSummary> reviews,
 			ServiceAddresses serviceAddresses) {
 
 		this.productId = productId;
-		this.price = price;
 		this.name = name;
 		this.description = description;
+		this.price = price;
 		this.reviews = reviews;
 		this.serviceAddresses = serviceAddresses;
 	}
