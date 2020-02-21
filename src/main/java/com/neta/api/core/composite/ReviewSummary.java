@@ -1,30 +1,29 @@
-
 package com.neta.api.core.composite;
 
 public class ReviewSummary {
 
 	private final int reviewId;
-	private final int rating;
 	private final String author;
 	private final String title;
 	private final String content;
+	private final int rating;
 
 	public ReviewSummary() {
 
 		this.reviewId = 0;
-		this.rating = 0;
 		this.author = null;
 		this.title = null;
 		this.content = null;
+		this.rating = 0;
 	}
 
-	public ReviewSummary(int reviewId, int rating, String author, String title, String content) {
+	public ReviewSummary(int reviewId, String author, String title, String content, int rating) {
 
 		this.reviewId = reviewId;
-		this.rating = rating;
 		this.author = author;
 		this.title = title;
 		this.content = content;
+		this.rating = rating;
 	}
 
 	public int getReviewId() {
