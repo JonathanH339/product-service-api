@@ -4,32 +4,32 @@ public class Review {
 
 	private int productId;
 	private int reviewId;
-	private int rating;
 	private String author;
 	private String title;
 	private String content;
+	private int rating;
 	private String serviceAddress;
 
 	public Review() {
 
 		this.reviewId = 0;
 		this.productId = 0;
-		this.rating = 0;
 		this.author = null;
 		this.title = null;
 		this.content = null;
+		this.rating = 0;
 		this.serviceAddress = null;
 	}
 
-	public Review(int productId, int reviewId, int rating, String author, String title, String content,
+	public Review(int productId, int reviewId, String author, String title, String content, int rating,
 			String serviceAddress) {
 
 		this.productId = productId;
 		this.reviewId = reviewId;
-		this.rating = rating;
 		this.author = author;
 		this.title = title;
 		this.content = content;
+		this.rating = rating;
 		this.serviceAddress = serviceAddress;
 	}
 
